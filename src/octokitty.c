@@ -4,12 +4,23 @@
 #define MAX_REPOS 20
 #define KEY_TOKEN 10
 
+
+typedef struct {
+  char full_name;
+  char html_url;
+  char description[250];
+} Repository;
+
 enum {
-  OCTO_KITTY_TOKEN = 0x01,
-  OCTO_KITTY_RESULT = 0x02,
-  OCTO_KITTY_REFRESH = 0x03,
-  OCTO_KITTY_ERROR = 0x04
+  OCTO_KITTY_TOKEN,
+  OCTO_KITTY_RESULT,
+  OCTO_KITTY_REFRESH,
+  OCTO_KITTY_ERROR
 };
+
+static Repository repositories[MAX_REPOS];
+
+int num_repositories;
 
 static Window *window;
 static TextLayer *text_layer;
