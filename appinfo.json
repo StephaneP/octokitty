@@ -2,7 +2,7 @@
   "uuid": "0465f314-09df-4b6b-8e86-2210036fc820",
   "shortName": "octokitty",
   "longName": "octokitty",
-  "companyName": "MakeAwesomeHappen",
+  "companyName": "Stephane Paul",
   "versionCode": 1,
   "versionLabel": "1.0.0",
   "watchapp": {
@@ -11,6 +11,9 @@
   "appKeys": {
     "dummy": 0
   },
+  "capabilities": [
+    "configurable"
+  ],
   "resources": {
     "media": []
   }
