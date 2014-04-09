@@ -1,0 +1,17 @@
+{
+  "uuid": "0465f314-09df-4b6b-8e86-2210036fc820",
+  "shortName": "octokitty",
+  "longName": "octokitty",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
